@@ -5,8 +5,7 @@ var quizScore = 0
 // Users name
 var user = prompt ('What is your name?');
 console.log('The users name is' + user)
-alert('Hello ' + user + '. Take this 5 question quiz!') 
-
+alert('Hello ' + user + '. Take this 7 question quiz!') 
 
 // Question 1
 var questionOne = prompt('Is my name Lisa? Enter \'Yes\' or \'No\'')
@@ -63,12 +62,7 @@ if (questionFive.toLowerCase() === 'yes') {
   alert('That\'s incorrect. I have been a yoga instructor');
 }
 
-// Thank the user for taking your quiz
-alert('Thank you for taking my quiz, ' + user + '!') 
-
-
-// Question 6
-//Guess a number between 1-100. 4 tries, number is 42
+// Question 6: Guess a number between 1-100. 4 tries, number is 42
 var correctAnswer = '42'
 var userAnswer = ''
 
@@ -90,7 +84,7 @@ for (var i = 0; userAnswer !== correctAnswer && i < 4; i++) {
 console.log(userAnswer)
 console.log('loop is done')
 
-//Question 7
+//Question 7: Guess a favorite food
 var arrayFood = [
   'burritos', 
   'ramen', 
@@ -124,5 +118,4 @@ for (var i = 0; i < 6; i++) {
 console.log('loop is done')
 
 // Quiz score
-
 alert('Great job! You got ' + quizScore + '/7')
