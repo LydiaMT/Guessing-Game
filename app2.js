@@ -111,7 +111,7 @@ for (var i = 0; i < 6; i++) {
   arrayUserAnswer = arrayUserAnswer.toLowerCase()
   console.log(arrayUserAnswer);
   if (i === 5) {
-    alert('Nice attempt. See my top 10 favorite foods on my website');
+    alert('Nice attempt. My 10 favorite foods are ' + arrayFood);
   } else if (arrayFood.includes(arrayUserAnswer)){
     alert('That IS one of my favorite foods, nice job!');
     quizScore++
