@@ -5,14 +5,31 @@ body {
 h1 {
   color: purple;
   background-color: royalblue;
+  padding: 10px;
+  text-align: center;
+  border: forestgreen solid 10px;
+
 }
 
-p {
+.question {
   border: black;
   border-style: solid;
   border-width: 5px;
+  padding: 5px 5px;
 }
 
+.main {
+  border: black dotted 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+
+ol {
+  list-style-type: upper-roman;
+}
 /* Box model */
 
 div {
