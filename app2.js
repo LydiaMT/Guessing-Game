@@ -1,4 +1,6 @@
 'use strict';
+
+function quiz(){
 //quiz score
 var quizScore = 0
 
@@ -119,3 +121,5 @@ console.log('loop is done')
 
 // Quiz score
 alert('Great job! You got ' + quizScore + '/7')
+}
+quiz();
