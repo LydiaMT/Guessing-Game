@@ -28,3 +28,7 @@ The development team will then create sub-bullets called Feature Tasks which are
   * Consider using a loop of some sort for this question.
 1. As a user, I would like to know my final score so that I can know how well I did.
   * Keep track of the total number of correct answers. At the end tell them how many they got correct out of the 7 questions asked.
+
+  ### Lab 4
+  1. Andy was driver
+  1. Lydia was navigator 
